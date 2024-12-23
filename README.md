@@ -13,7 +13,8 @@ MusicVerse is a React-based application that brings together music learning, lis
 - **Delete from Cart**: Users can remove tutorials from the cart.
 - **Purchase**: Once a tutorial is purchased, users can watch and learn from it.
   
-### Explore Page
+### Explore Page 
+Access Learning Resources,play games,listen to music,view live and virtual concerts.
 - Displays the main features of the platform:
   - **Learn Music**: Navigate to music theory lessons.
   - **Listen Music**: View playlists and tracks.
@@ -53,6 +54,14 @@ MusicVerse is a React-based application that brings together music learning, lis
 - **Node.js** (version 12 or higher)
 - **NPM or Yarn** for package management
 - **Spotify Developer Account** (for API access)
+
+## prerequisites 
+- Install **Visual Studio Code (VS Code)** or any preferred **IDE**.
+- **Node.js** (version 12 or higher)
+- **NPM or Yarn** for package management
+- **Spotify Developer Account** (for API access)
+- **Run JSON Server**
+- **npm start**
 
 ### How It Works
 
