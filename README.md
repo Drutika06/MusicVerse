@@ -6,10 +6,9 @@ MusicVerse is a React-based application that brings together music learning, lis
 
 ### Authentication
 - **Signup**: New users can create an account to access all features of the platform.
-- **Login**: Existing users can log in to their account securely.
 - **Logout**: Users can log out of their account.
 
-### Expense Management (Tutorials Cart CRUD Functionality)
+### Tutorials Management (Tutorials Cart CRUD Functionality)
 - **Add to Cart**: Users can add tutorials to their cart.
 - **Delete from Cart**: Users can remove tutorials from the cart.
 - **Purchase**: Once a tutorial is purchased, users can watch and learn from it.
@@ -23,6 +22,7 @@ MusicVerse is a React-based application that brings together music learning, lis
   
 ### Library Page
 - Displays playlists fetched from **Spotify** using the [Spotify API](https://developer.spotify.com/).
+- 'https://v1.nocodeapi.com/drutika/spotify/FvSruGylpkJWfVtd/myPlaylists' - this is the spotify api used to fetch the playlist into mood.js page.
 - Users can interact with playlists and view tracks.
 
 ### Games Page
@@ -33,6 +33,7 @@ MusicVerse is a React-based application that brings together music learning, lis
 ### Tutorials Page
 - Users can browse and add video tutorials to their cart.
 - Tutorials are locked and can only be watched after purchase.
+- Click on 'Learn Music Theory & Musical Notes' to navigate to the MusicTheory page for detailed insights into music theory and notes.
 
 ### Music Theory Page
 - Learn music theory, including notes, scales, chords, and more.
@@ -77,29 +78,4 @@ MusicVerse is a React-based application that brings together music learning, lis
    - Users can view Spotify playlists and tracks in the library section.
    - Clicking on a playlist navigates to the tracks page to view individual songs.
 
-### File Structure
-
-The project consists of the following key files:
-
-- `App.js` - Main entry point for the application.
-- `App.css` - Global styling for the application.
-- `Navbar.js` - Contains the navigation bar with links to the Explore, Signup, Games, Tutorials, and Library pages.
-- `Explore.js` - The main page displaying the key features of the platform.
-- `Signup.js` - Handles user registration.
-- `Games.js` - Contains games like music trivia and instrument identification.
-- `Tutorials.js` - Displays the video tutorials and handles CRUD operations (add to cart and delete from cart).
-- `Library.js` - Displays the playlists and tracks fetched from Spotify.
-- `MusicTheory.js` - Provides users with music theory content.
-- `ConcertDetails.js` - Displays details about concerts and events.
-- `Tracks.js` - Shows tracks within a playlist.
-- `tailwind.config.js` - Configuration for Tailwind CSS.
-- `postcss.config.js` - Configuration for PostCSS.
-- `package.json` - Manages the project dependencies and scripts.
-
-### Setup Instructions
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/musicverse.git
 
