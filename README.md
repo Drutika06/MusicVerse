@@ -2,12 +2,12 @@
 
 MusicVerse is a React-based application that brings together music learning, listening, playing games, and exploring music events in one platform. The app allows users to sign up, log in, and explore various features such as learning music theory, listening to songs, creating playlists, playing music-related games, and accessing tutorials. It also provides a dynamic library page for users to view and interact with playlists fetched from Spotify. Users can manage their cart for purchasing tutorials and explore concerts and events.
 
-Main Functionalities
-🎶 Learn Music: Access music theory lessons and tutorials with add-to-cart and purchase options.
-🎵 Listen to Music: View and interact with playlists fetched from Spotify.
-🕹️ Play Games: Enjoy music trivia and instrument identification games.
-🎤 Explore Events: Discover upcoming concerts and events.
-📚 Library & Tracks: Manage playlists and navigate to track details.
+**Main Functionalities:**
+**🎶 Learn Music:** Access music theory lessons and tutorials with add-to-cart and purchase options.
+**🎵 Listen to Music:** View and interact with playlists fetched from Spotify.
+**🕹️ Play Games:** Enjoy music trivia and instrument identification games.
+**🎤 Explore Events:** Discover upcoming concerts and events.
+**📚 Library & Tracks:** Manage playlists and navigate to track details.
 Built with React, styled using Tailwind CSS, and powered by React Router DOM for smooth navigation, MusicVerse creates a user-friendly and engaging music experience!
 
 ## Features
