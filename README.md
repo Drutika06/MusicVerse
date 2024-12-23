@@ -50,11 +50,6 @@ Access Learning Resources,play games,listen to music,view live and virtual conce
   
 ## Getting Started
 
-### Requirements
-- **Node.js** (version 12 or higher)
-- **NPM or Yarn** for package management
-- **Spotify Developer Account** (for API access)
-
 ## prerequisites 
 - Install **Visual Studio Code (VS Code)** or any preferred **IDE**.
 - **Node.js** (version 12 or higher)
