@@ -41,10 +41,10 @@ Access Learning Resources,play games,listen to music,view live and virtual conce
 
 ## Tech Stack
 
-- **Frontend**: React (with Hooks and State Management)
-- **Backend**: No backend is used, but data is managed locally and via API calls for Spotify and other integrations.
-- **Routing**: React Router DOM for navigation between pages.
-- **Styling**: Tailwind CSS for styling the user interface.
+- **Frontend**: **React** (with Hooks and State Management)
+- **Backend**: Json Server is used, but data is managed locally and via API calls for Spotify and other integrations.
+- **Routing**: **React Router DOM** for navigation between pages.
+- **Styling**: **Tailwind CSS** for styling the user interface.
 - **Charting**: React Slick for creating carousels and displaying tutorial slides.
 - **Icons**: React Icons for using Font Awesome icons.
   
