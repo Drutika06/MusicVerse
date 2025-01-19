@@ -20,12 +20,14 @@ const App = () => {
 
       {/* Define application routes */}
       <Routes>
-        <Route path="/" element={<Home />} />             {/* Home route */}
+        <Route path="/" element={<Home />} />             {/* Mood route as the default landing page */}
+        <Route path="/home" element={<Home />} />         {/* Home route */}
         <Route path="/signup" element={<SignUp />} />     {/* Sign Up route */}
         <Route path="/tutorials" element={<Tutorials />} /> {/* Tutorials route */}
         <Route path="/tutorials/music-theory" element={<MusicTheory />} /> {/* Music Theory route */}
         <Route path="/mood" element={<Mood />} />         {/* Mood route */}
-        <Route path="/mood/tracks/:playlistId" element={<Tracks />} /> {/* Tracks route for playlists */}
+        <Route path="/mood/tracks/:playlistId" element={<Tracks />} /> {/* Tracks route for specific playlists */}
+        <Route path="/tracks" element={<Tracks />} />     {/* General Tracks page route */}
         <Route path="/games" element={<Games />} />       {/* Games route */}
         <Route path="/explore" element={<Explore />} />   {/* Explore route */}
         <Route path="/concert-details" element={<ConcertDetails />} />  {/* Concert Details route */}
@@ -36,4 +38,5 @@ const App = () => {
 };
 
 export default App;
+
 
