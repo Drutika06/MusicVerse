@@ -95,5 +95,9 @@ Access Learning Resources,play games,listen to music,view live and virtual conce
 6. **Library and Tracks**:
    - Users can view Spotify playlists and tracks in the library section.
    - Clicking on a playlist navigates to the tracks page to view individual songs.
+  
+  ![image](https://github.com/user-attachments/assets/e2c09a76-5690-4978-9360-e0efa2bf2172)
+
+
 
 
