@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';  // Your global CSS file (includes Tailwind CSS)
 import App from './App'; // Your main app component
 import reportWebVitals from './reportWebVitals'; // For performance monitoring
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 // Create a root element using React 18's createRoot API
 const root = ReactDOM.createRoot(document.getElementById('root'));
